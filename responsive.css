@@ -1,0 +1,147 @@
+
+@media screen and (max-width: 1288px){
+    ul{
+        flex-direction: column;
+    }
+    .navbar{
+
+        flex-direction: column;
+      height: auto;
+      
+    }
+    .navright{
+        
+        justify-content: left;
+        padding: 0px 0px 11px 20px;
+
+    }
+
+    .burger{
+        display: block;
+        position: absolute;
+        top: 4px;
+       
+        
+    }
+
+    .h-nav{
+        height: 5vh;
+       
+    }
+    .v-class{
+        opacity: 0;
+    }
+    
+    .section-about{
+        flex-direction: column-reverse;
+       
+    }
+
+    .left-section-about{
+      margin: auto;
+      width: 90%;
+    }
+    .right-section-about{
+      margin: auto;
+      width: 100%;
+    }
+    
+    .left-section-about-2{
+        margin: auto;
+        width: 100%;
+    }
+    .right-section-about-2{
+        margin: auto;
+        width: 90%;
+    }
+
+    
+
+
+
+    .section-about-2{
+        flex-direction: column;
+        
+    }
+    
+ }
+
+ @media screen and (max-width: 636px){
+    .secondhalf{
+         display: none
+     }
+     footer{
+        flex-direction: column-reverse;
+    }
+    footer p{
+         font-size: smaller;
+
+     }
+     .footer-images img{
+        display: none;
+            
+     }
+
+     .form{
+         max-width: 200px;
+         margin: auto;
+     }
+     .form input{
+         width: 100%;
+     }
+     .form textarea{
+         width: 100%;
+     }
+     .mainbox{
+         height: 93vh;
+     }
+     .firsthalf{
+         height: auto;
+     }
+     .firsthalf h1{
+        display: flex;
+        font-size: 2.5rem;
+     }
+
+     .firsthalf p{
+        display: none;
+     }
+     .right-section-about img{
+        width: 95%;
+        margin-bottom: 20px;
+     }
+     .left-section-about{
+         width: 95%;
+     }
+     .left-section-about-2 img{
+        width: 95%;
+        margin-bottom: 20px;
+     }
+     
+      .left-section-about-2{
+         
+          width: 95%;
+      }
+      .right-section-about-2{
+        
+        width: 95%;
+      }
+      #search{
+       display: none;
+      }
+      .navright img{
+          display: none;
+      }
+
+      .navbar{
+          position: sticky;
+          top: 0px;
+          z-index: 10;
+         
+      }
+      .burger{
+          position: absolute;
+          top: 2px;
+          
+      }
+ }
